@@ -16,6 +16,7 @@
 }
 
 .container__cards{
+    margin: 72px 0 ;
     width: 310px;
     border-radius: 8px;
     overflow: hidden;
@@ -53,7 +54,7 @@
 
 .card__second{
     background: var(--cyan);
-    color: var(--light-gray);
+    color: #fff;
     height: 228px;
     padding: 28px 24px 24px;
     box-sizing: border-box;
@@ -85,7 +86,7 @@
 
 .card__second button{
     background: var(--bright-yellow);
-    color: var(--light-gray);
+    color: #fff;
     width: 261px;
     height: 48px;
     font-weight: 700;
@@ -96,7 +97,7 @@
 
 .card__third{
     background: hsla(179, 62%, 45%);
-    color: var(--light-gray);
+    color: #fff;
     height: 228px;
     padding: 28px 24px;
     box-sizing: border-box;
@@ -119,6 +120,7 @@
 @media (min-width: 800px) {
 
     .container__cards{
+        margin: 0;
         grid-template: 217px 258px/ 317px 1fr;
         width: 636px;
     }
